@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img src="./banner.png" alt="LegacyBridge" width="100%">
+  <img src="./assets/banner.png" alt="LegacyBridge" width="100%">
 </p>
 
 <p align="center">
@@ -95,7 +95,7 @@ Proposed MIT licensing; see LICENSE. The repository owner must confirm ownership
 ---
 
 <p align="center">
-  <img src="./mascot-thanks.png" width="200" alt="LegacyBridge Mascot">
+  <img src="./assets/mascot-thanks.png" width="200" alt="LegacyBridge Mascot">
 </p>
 
 <h3 align="center">Thanks for stopping by! ♡</h3>
