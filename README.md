@@ -1,6 +1,39 @@
-# LegacyBridge
 
-**Make existing software AI-operable, without rewriting it.**
+<h1 align="center">LegacyBridge</h1>
+
+<h2 align="center">
+  🔮🤖 Make existing software AI-operable. 🔧💻
+</h2>
+
+<p align="center">
+  <strong><em>Without rewriting it.</em></strong>
+</p>
+
+<p align="center">
+  <img src="./banner.png" alt="LegacyBridge" width="100%">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/License-MIT-8975C9?style=flat-square" alt="License">
+  <img src="https://img.shields.io/badge/Skills-5-9678D3?style=flat-square" alt="Skills">
+  <img src="https://img.shields.io/badge/Architecture-Agentic-697FC0?style=flat-square" alt="Architecture">
+  <img src="https://img.shields.io/badge/Platform-Independent-669C91?style=flat-square" alt="Platform">
+</p>
+
+<p align="center">
+  <em>Learn. Operate. Orchestrate. Audit. Recover.</em>
+</p>
+
+<p align="center">
+  <a href="./docs/">Architecture</a> ·
+  <a href="./skills/">Skills</a> ·
+  <a href="./docs/installation.md">Quick Start</a> ·
+  <a href="./examples/">Examples</a>
+</p>
+
+---
+
+
 
 LegacyBridge is a decision-driven skill framework for AI agents operating existing desktop and web software through authorized graphical interfaces. It is a collection of behavioral instructions, not a standalone automation engine.
 
