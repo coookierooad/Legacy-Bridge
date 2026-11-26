@@ -1,0 +1,2 @@
+# Demo status
+The original experiment used two locally hosted synthetic CRM interfaces: a read-only legacy customer archive and a writable target CRM. Original HTML files are not available in this release package. No replacement is presented as the original. To reproduce the experiment, supply two authorized test interfaces with stable identifiers and fields, and use the prompts in examples. Never use real customer data in a public demo.

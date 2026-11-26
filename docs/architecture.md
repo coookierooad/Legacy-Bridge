@@ -1,0 +1,4 @@
+# Architecture
+The agent host supplies reasoning, GUI tools, optional skill loading and optional persistence. LegacyBridge supplies five independent decision policies. The agent selects a policy according to the current gap. Simple navigation may need only Operator; unfamiliar business work may combine Learner and Operator; complex delivery may use Orchestrator and selectively request other capabilities; an independent reconciliation may use Auditor without execution; interrupted work may use Recovery and then resume orchestration. None is a mandatory prerequisite for every other skill.
+
+Separate operation knowledge, business rules, current task state and recovery experience. Share provenance-tagged evidence rather than duplicating logs. Stop learning when further observations add no decision value. Separate bulk evidence acquisition from comparison. Preserve uncertainty and user control. The framework does not implement a scheduler, GUI driver or storage service.
