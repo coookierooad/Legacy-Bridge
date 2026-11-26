@@ -90,3 +90,25 @@ Research prototype. The five skill instructions are included. Host integration, 
 
 ## License
 Proposed MIT licensing; see LICENSE. The repository owner must confirm ownership and permission before public release.
+
+
+---
+
+<p align="center">
+  <img src="./mascot-thanks.png" width="200" alt="LegacyBridge Mascot">
+</p>
+
+<h3 align="center">Thanks for stopping by! ♡</h3>
+
+<p align="center">
+  <em>Even old software deserves a little magic.</em>
+</p>
+
+<p align="center">
+  If you find LegacyBridge useful, consider leaving a ⭐
+</p>
+
+<p align="center">
+  Made with curiosity, code, and a little magic. 💜
+</p>
+
