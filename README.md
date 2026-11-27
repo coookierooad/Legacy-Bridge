@@ -66,6 +66,67 @@ flowchart TD
 | [Business Auditor](skills/legacy-business-auditor/SKILL.md) | Is the actual business state correct? |
 | [Task Recovery](skills/legacy-task-recovery/SKILL.md) | How can I safely resume? |
 
+## Experimental Results
+
+> Can an AI agent take over legacy software workflows more effectively through decision-driven skill composition?
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <b>Vanilla AI Agent</b>
+      <h1>150+ min</h1>
+      <img src="https://img.shields.io/badge/Status-Timeout-red?style=flat-square" />
+    </td>
+    <td align="center" width="50%">
+      <b>LegacyBridge</b>
+      <h1>13m 09s</h1>
+      <img src="https://img.shields.io/badge/Skills%20%2B%20Prompt-Enhanced-9575CD?style=flat-square" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <h2>91.23%+</h2>
+      Runtime Reduction
+    </td>
+    <td align="center">
+      <h2>11.41×+</h2>
+      Runtime Ratio
+    </td>
+  </tr>
+</table>
+
+</div>
+
+### Benchmark Overview
+
+| Metric | Vanilla AI | LegacyBridge |
+| :--- | :---: | :---: |
+| Task | Cross-system CRM migration | Cross-system CRM migration |
+| Target Records | 10 | 10 |
+| Installed Skills | 0 | 5 |
+| Runtime | 150+ min | **13m 09s** |
+| Run Status | Timeout | Run ended |
+| Relative Runtime | 100% | **≤ 8.77%** |
+
+### Observed Capability Gains
+
+- **Decision Intelligence** — Context-aware skill selection.
+- **Business Learning** — Evidence-based discovery of business rules.
+- **Adaptive Execution** — Mechanism switching instead of repetitive failures.
+- **Risk Control** — Write safeguards and state-aware recovery.
+- **Auditability** — Quantifiable and traceable business outcomes.
+- **Knowledge Reuse** — Reusable operational paths and workflow knowledge.
+
+> [!NOTE]
+> These are preliminary experimental results. The baseline
+> timed out after more than 150 minutes, while the enhanced
+> run combined LegacyBridge Skills with prompt optimization.
+> Runtime reduction does not represent a controlled measure
+> of task-completion efficiency or the independent effect
+> of Skills.
+
 ## Quick start
 1. Use an agent environment with authorized GUI tools and a way to load skill instructions.
 2. Copy the desired skill directories into the host's supported skill location, or load their Markdown instructions manually. Host-specific installation and automatic routing are not guaranteed.
